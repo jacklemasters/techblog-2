@@ -1,0 +1,22 @@
+{
+  "name": "techblog2",
+  "version": "1.0.0",
+  "description": "A CMS style blog similar to a Wordpress site, where developers can publish their blog posts and comment on other posts as well. Following the MVC paradigm, using handlebars, and sequelize.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jack LeMasters",
+  "license": "ISC",
+  "dependencies": {
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^10.0.0",
+    "exphbs": "^1.2.0",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.6.5",
+    "session": "^0.1.0"
+  }
+}
